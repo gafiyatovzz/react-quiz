@@ -23,7 +23,18 @@ class Quiz extends Component {
                 ]
             },
             {
-                id: 1,
+                id: 2,
+                question: 'Что ты ел на завтрак?',
+                rightAnswerId: 1,
+                answers: [
+                    {text: 'eggs', id: 1},
+                    {text: 'boiled eggs', id: 2},
+                    {text: 'fried eggs', id: 3},
+                    {text: 'norhing, i\'m like be hungry', id: 4},
+                ]
+            },
+            {
+                id: 3,
                 question: 'Что ты ел на завтрак?',
                 rightAnswerId: 1,
                 answers: [
